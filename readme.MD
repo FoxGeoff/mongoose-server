@@ -2,6 +2,8 @@
 
 ## Introduction
 
+1. Video Ref: <https://app.pluralsight.com/course-player?clipId=8bfd969e-0cbc-4697-b323-7fcbf5c1ce96>
+
 ### Task: Setup Server
 
 1. Run 'npm init' to generate package.json file
