@@ -61,8 +61,7 @@ require('./routes/team')(router);
 2. Adding: vue-cli, Vuetify, Vuex and Axios
 3. Run: 'npm -i -g add @vue/cli'
 4. Run: 'Github\mongoose\> vue create client'
-5. Run:'cd client' and Run:'npm run serve' ( <http://localhost:8080/> )
-6. client/> 'vue add vuetify' <<
-7. goto: <https://vuetifyjs.com/en/wireframes/baseline/> (Not working)
-8. goto: <https://vuetifyjs.com/en/getting-started/installation/>
-9. Run: 'npm create vuetify'
+5. STEP #1: Run:'cd client' and Run:'npm run serve' ( <http://localhost:8080/> )
+6. STEP #2: client/> 'vue add vuetify' <<
+7. STEP #3: goto: <https://vuetifyjs.com/en/wireframes/baseline/> (Click and goto gihub for code)
+8. FOR THIS APP SKIP #3 AND COPY CODE: <https://github.com/tripletdad99/vue-standupnotes-client>
