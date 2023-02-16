@@ -16,3 +16,41 @@
 8. To add eslint config file ref. project 'rest-api'
 9. Run 'npm i morgan' (for login errors)
 10. Run 'npm i nodemon -D'
+
+### Task: Demo: Develop the Express API
+
+1. Video Ref: <https://app.pluralsight.com/course-player?clipId=8bfd969e-0cbc-4697-b323-7fcbf5c1ce96>   @ 4:55/8:42
+2. Add folder/file: server/api/index.js server/api/routes/standup.js & project.js & team.js
+
+```javascript
+/* server/api/routes/project (+2other routes)  */
+module.exports = function (router) {
+    //GET: List of active projects
+    router.get('/project', function (req, res) {
+
+    });
+}
+
+/* server/api/inde.js */
+
+const express = require('express');
+const router = express.Router();
+
+require('./routes/standup')(router); 
+require('./routes/project')(router); 
+require('./routes/team')(router); 
+
+ module.exports = router;
+ ```
+
+1. add scripts to package.json
+
+```json
+...
+ "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lint & nodemon app.jd",
+    "lint": "./node_modules/.bin/eslint **/*.js"
+  },
+...
+```

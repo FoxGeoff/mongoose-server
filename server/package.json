@@ -4,7 +4,9 @@
   "description": "Fundamentals of Mongoose for Node and MongoDB",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lint & nodemon app.jd",
+    "lint": "./node_modules/.bin/eslint **/*.js"
   },
   "repository": {
     "type": "git",
