@@ -54,3 +54,15 @@ require('./routes/team')(router);
   },
 ...
 ```
+
+### Task: Demo: Vue.js and Vuetify
+
+1.Video Ref: <https://app.pluralsight.com/course-player?clipId=d653e65f-c36b-4db7-a9d7-82be3d7235d9>
+2. Adding: vue-cli, Vuetify, Vuex and Axios
+3. Run: 'npm -i -g add @vue/cli'
+4. Run: 'Github\mongoose\> vue create client'
+5. Run:'cd client' and Run:'npm run serve' ( <http://localhost:8080/> )
+6. client/> 'vue add vuetify' <<
+7. goto: <https://vuetifyjs.com/en/wireframes/baseline/> (Not working)
+8. goto: <https://vuetifyjs.com/en/getting-started/installation/>
+9. Run: 'npm create vuetify'
