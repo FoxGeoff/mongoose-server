@@ -65,4 +65,4 @@ require('./routes/team')(router);
 6. STEP #2: client/> 'vue add vuetify' <<
 7. STEP #3: goto: <https://vuetifyjs.com/en/wireframes/baseline/> (Click and goto gihub for code)
 8. FOR THIS APP SKIP #3 AND COPY CODE: <https://github.com/tripletdad99/vue-standupnotes-client>
-9. in folder 'client' RUN: 'npm install'
+9. in folder 'client' RUN: 'npm install' and add '.gitignore'
