@@ -66,3 +66,9 @@ require('./routes/team')(router);
 7. STEP #3: goto: <https://vuetifyjs.com/en/wireframes/baseline/> (Click and goto gihub for code)
 8. FOR THIS APP SKIP #3 AND COPY CODE: <https://github.com/tripletdad99/vue-standupnotes-client>
 9. in folder 'client' RUN: 'npm install' and add '.gitignore'
+10. in folder 'client' RUN 'npm add material-design-icons-iconfont' RUN: 'npm add axios'
+
+### Task: Fix Error eslint
+
+1. Ref: <https://eslint.org/docs/latest/use/getting-started>
+2. Manually Add file: '.eslintrc.json'
