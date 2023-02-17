@@ -68,7 +68,7 @@ require('./routes/team')(router);
 9. in folder 'client' RUN: 'npm install' and add '.gitignore'
 10. in folder 'client' RUN 'npm add material-design-icons-iconfont' RUN: 'npm add axios'
 
-### Task: Fix Error eslint
+### Task: Fix Error eslint (project: client)
 
 1. Ref: <https://eslint.org/docs/latest/use/getting-started>
 2. Manually Add file: '.eslintrc.json'
