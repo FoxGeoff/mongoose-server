@@ -72,3 +72,9 @@ require('./routes/team')(router);
 
 1. Ref: <https://eslint.org/docs/latest/use/getting-started>
 2. Manually Add file: '.eslintrc.json'
+
+## Kanban Task: Setting up MongoDB Database
+
+1. Video Ref: <https://app.pluralsight.com/course-player?clipId=0acc1d4b-e16b-4537-af66-0954f85523d0>
+
+### Task: The Virtual Database Setup
