@@ -78,3 +78,8 @@ require('./routes/team')(router);
 1. Video Ref: <https://app.pluralsight.com/course-player?clipId=0acc1d4b-e16b-4537-af66-0954f85523d0>
 
 ### Task: The Virtual Database Setup
+
+## Kanban Task: Building the Mongoose Schema
+
+1. Video clip #5: Everything starts with a schema <https://app.pluralsight.com/course-player?clipId=bc5e044a-e0a3-4627-aea4-ee2ca3a14d64>
+2. ddd
