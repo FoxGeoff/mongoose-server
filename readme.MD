@@ -114,7 +114,7 @@ const standupSchema = new mongoose.Schema({
 module.exports = mongoose.model('Standup', standupSchema);
 ```
 
-1. Develope the routes eg routes/standup.js
+1. Develop the routes eg routes/standup.js
 
 ```javascript
 /* server/api/routes/standup.js */
@@ -135,4 +135,12 @@ module.exports = function (router) {
     });
   });
 };
+```
+
+### Task: Connect to MongoDb
+
+1. Update app.js
+
+```javascript
+
 ```

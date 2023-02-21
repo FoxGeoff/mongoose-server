@@ -23,7 +23,10 @@ app.use(function (req, res) {
 	res.json(err)
 })
 
-// Add MongoDB connection in later... first just run app.listen (below)
+// Add MongoDB connection
+
+
+
 app.listen(app.get('port'), function () {
 	console.log('API Server Listening on port ' + app.get('port') + '!')
 })

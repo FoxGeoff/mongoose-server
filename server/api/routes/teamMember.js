@@ -1,10 +1,8 @@
 const TeamMember = require('../../models/teamMember');
 
-export default function (router) {
+module.exports = function (router) {
   //GET: List of TeamMembers
-  router.get('/teamMember', function (req, res) {
-
-  });
+  router.get('/teamMember', function (req, res) {});
 
   // POST: Create newTeamMember document...
   router.post('/teamMember', function (req, res) {

@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const projectSchema = mongoose.mongoose({
+const projectSchema = mongoose.Schema({
   name: { type: String },
   description: { type: String },
   isActive: { type: Boolean, default: true },
