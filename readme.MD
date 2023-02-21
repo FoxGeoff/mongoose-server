@@ -86,6 +86,7 @@ require('./routes/team')(router);
 3. Create file(s): server/models/standup.js, project.js and teamMeber.js
 
 ```javascript
+// code for schema (standupSchema.js)
 const mongoose = require('mongoose');
 
 const standupSchema = new mongoose.Schema({
@@ -101,3 +102,14 @@ const standupSchema = new mongoose.Schema({
 ## Kanban Task: Building a model
 
 1. Video Clip: <https://app.pluralsight.com/course-player?clipId=21b2aabb-46c1-43fc-9992-52c774e75323>
+2. Video Clip: <https://app.pluralsight.com/course-player?clipId=ff9b32ce-d51c-4466-bb4d-caf1ede8ed6b>
+3. Demo: Build a model
+
+```javascript
+...
+// code for schema (standupSchema.js)
+...
+...
+// Export the model from the schema
+module.exports = mongoose.model('Standup', standupSchema);
+```

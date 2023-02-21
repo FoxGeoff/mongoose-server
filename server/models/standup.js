@@ -9,6 +9,9 @@ const standupSchema = new mongoose.Schema({
   createdOn: { type: Date, default: Date.now },
 });
 
+// Export the model
+module.exports = mongoose.model('Standup', standupSchema);
+
 /*
 // Disable _id schema example
 const noIdSchema = new mongoose.Schema({ name: String }, { _id: false });
