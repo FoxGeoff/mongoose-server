@@ -82,4 +82,22 @@ require('./routes/team')(router);
 ## Kanban Task: Building the Mongoose Schema
 
 1. Video clip #5: Everything starts with a schema <https://app.pluralsight.com/course-player?clipId=bc5e044a-e0a3-4627-aea4-ee2ca3a14d64>
-2. ddd
+2. Demo Schema <https://app.pluralsight.com/course-player?clipId=e461508b-bfa0-4d2f-bedf-04d38aa945ac>
+3. Create file(s): server/models/standup.js, project.js and teamMeber.js
+
+```javascript
+const mongoose = require('mongoose');
+
+const standupSchema = new mongoose.Schema({
+  teamMember: { type: String },
+  project: { type: String },
+  workYesterday: { type: String },
+  workToday: { type: String },
+  impediments: { type: String },
+  createdOn: { type: Date, default: Date.now },
+});
+```
+
+## Kanban Task: Building a model
+
+1. Video Clip: <https://app.pluralsight.com/course-player?clipId=21b2aabb-46c1-43fc-9992-52c774e75323>
