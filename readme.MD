@@ -64,7 +64,7 @@ require('./routes/team')(router);
 5. STEP #1: Run:'cd client' and Run:'npm run serve' ( <http://localhost:8080/> )
 6. STEP #2: client/> 'vue add vuetify' <<
 7. STEP #3: goto: <https://vuetifyjs.com/en/wireframes/baseline/> (Click and goto gihub for code)
-8. FOR THIS APP SKIP #3 AND COPY CODE: <https://github.com/tripletdad99/vue-standupnotes-client>
+8. FOR THIS APP SKIP #3 AND COPY CODE: <https://github.com/tripletdad99/vue-standupstandups-client>
 9. in folder 'client' RUN: 'npm install' and add '.gitignore'
 10. in folder 'client' RUN 'npm add material-design-icons-iconfont' RUN: 'npm add axios'
 
@@ -112,4 +112,27 @@ const standupSchema = new mongoose.Schema({
 ...
 // Export the model from the schema
 module.exports = mongoose.model('Standup', standupSchema);
+```
+
+1. Develope the routes eg routes/standup.js
+
+```javascript
+/* server/api/routes/standup.js */
+const Standup = require('../../models/standup');
+
+module.exports = function (router) {
+  // GET: the 12 newest stand-up meeting notes
+  router.get('/standup', function (req, res) {});
+
+  // POST: Create new Standup note...
+  router.post('/standup', function (req, res) {
+    let newStandupNote = new Standup(req.body);
+    newStandupNote.save(function (err, newStandupNote) {
+      if (err) {
+        return res.status(400).json(err);
+      }
+      res.status(200).json(newStandupNote);
+    });
+  });
+};
 ```
