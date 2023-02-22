@@ -178,6 +178,7 @@ db.once('open', function () {
 ### Task: Documents and Helper Methods (video)
 
 1. Video Ref: <>
-2. Methods Find and FindOne
+2. Methods Find, FindOne FindById
 ![Method Find](client\src\assets\mon_find.jpg "Method Find")
 ![Method FindOne](client\src\assets\mon_find_one.jpg "Method FindOne")
+![Method FindById](client\src\assets\mon_find_by_id.jpg "Method Find By Id")

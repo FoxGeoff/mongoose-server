@@ -2,7 +2,14 @@ const Standup = require('../../models/standup');
 
 module.exports = function (router) {
   // GET: the 12 newest stand-up meeting notes
-  router.get('/standup', function (req, res) {});
+  router.get('/standup', function (req, res) {
+    Standup.find((err, standups) => {
+      if(err) {
+        return res.send(err);
+      }
+      res.json(standups);
+    });
+  });
 
   // POST: Create new Standup note...
   router.post('/standup', function (req, res) {
