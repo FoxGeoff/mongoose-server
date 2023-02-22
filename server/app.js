@@ -27,7 +27,7 @@ app.use(function (req, res) {
 // Add MongoDB connection
 const mogoose = require('mongoose');
 
-//new requirement
+//new requirement to fix error
 mongoose.set('strictQuery', false);
 
 mongoose.connect('mongodb://localhost:27017/virtualstandups');
