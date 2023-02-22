@@ -162,3 +162,5 @@ db.once('open', function () {
   });
 });
 ```
+
+1. Check by running: 'mongod'
