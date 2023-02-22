@@ -168,3 +168,16 @@ db.once('open', function () {
 ### Use Postman to check routes
 
 1.Video Ref: @4:55/5:53 <https://app.pluralsight.com/course-player?clipId=ff9b32ce-d51c-4466-bb4d-caf1ede8ed6b>
+
+### Kanban Task: Retrieve Data Using Queries (video #7)
+
+1. VIdeo Ref: <https://app.pluralsight.com/course-player?clipId=2bc02bb3-7c73-48da-bf68-5a4838749327>
+2. Using mongoose: find, findById, fineOne, and where.
+3. Methods to update and remove documents from a Db collection.
+
+### Task: Documents and Helper Methods (video)
+
+1. Video Ref: <>
+2. Methods Find and FindOne
+![Method Find](client\src\assets\mon_find.jpg "Method Find")
+![Method FindOne](client\src\assets\mon_find_one.jpg "Method FindOne")
