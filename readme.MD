@@ -142,5 +142,23 @@ module.exports = function (router) {
 1. Update app.js
 
 ```javascript
+...
+...
+// Add MongoDB connection
+const mogoose = require('mongoose');
 
+//new requirement
+mongoose.set('strictQuery', false);
+
+mongoose.connect('mongodb://localhost:27017/virtualstandups');
+
+const db = mongoose.connection;
+db.on('error', console.error.bind(console, 'connection error'));
+db.once('open', function () {
+  console.log('Connected to MongoDb');
+
+  app.listen(app.get('port'), function () {
+    console.log('API Server Listening on port ' + app.get('port') + '!');
+  });
+});
 ```
