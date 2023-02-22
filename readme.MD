@@ -164,3 +164,7 @@ db.once('open', function () {
 ```
 
 1. Check by running: 'mongod'
+
+### Use Postman to check routes
+
+1.Video Ref: @4:55/5:53 <https://app.pluralsight.com/course-player?clipId=ff9b32ce-d51c-4466-bb4d-caf1ede8ed6b>

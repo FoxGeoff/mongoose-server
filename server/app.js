@@ -30,7 +30,7 @@ const mogoose = require('mongoose');
 //new requirement to fix error
 mongoose.set('strictQuery', false);
 
-mongoose.connect('mongodb://localhost:27017/virtualstandups');
+mongoose.connect('mongodb://127.0.0.1/virtualstandups');
 
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error'));
