@@ -182,3 +182,9 @@ db.once('open', function () {
 ![Method Find](client\src\assets\mon_find.jpg "Method Find")
 ![Method FindOne](client\src\assets\mon_find_one.jpg "Method FindOne")
 ![Method FindById](client\src\assets\mon_find_by_id.jpg "Method Find By Id")
+
+3. List of routes required": List of 12 newest Standups, Team-member list and Project (active) list
+
+### Task: List of 12 newest Standup Meeting
+
+### Task: Update or remove objects
