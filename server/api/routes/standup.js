@@ -15,8 +15,8 @@ module.exports = function (router) {
       );
   });
 
-  // GET: all stand-up meeting notes
-
+  // GET: all stand-up meeting notes...
+  /* http://localhost:8082/api/standup */
   /*
   router.get('/standup', function (req, res) {
     Standup.find((err, standups) => {
@@ -29,6 +29,7 @@ module.exports = function (router) {
 */
 
   // POST: Create new Standup note...
+  /* http://localhost:8082/api/standup */
   router.post('/standup', function (req, res) {
     let newStandupNote = new Standup(req.body);
     newStandupNote.save(function (err, newStandupNote) {
