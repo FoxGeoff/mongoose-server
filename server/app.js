@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const { default: mongoose } = require('mongoose');
 
-//not set in package.json so = 8081
+//set in package.json "nodemon" = 8082
 const port = process.env.PORT || 8081;
 
 app.use(bodyParser.json());
