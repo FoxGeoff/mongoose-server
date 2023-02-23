@@ -185,6 +185,23 @@ db.once('open', function () {
 
 3. List of routes required": List of 12 newest Standups, Team-member list and Project (active) list
 
+### Task: setup development env port in package.json (nodemonConfig)
+
+```json
+...
+"nodemonConfig": {
+    "restartable": "rs",
+    "ignore": [
+      "node_modules/**/node_modules"
+    ],
+    "delay": "2500",
+    "env": {
+      "NODE_ENV": "development",
+      "port": 4201
+    }
+  }
+  ```
+
 ### Task: List of 12 newest Standup Meeting
 
 ### Task: Update or remove objects

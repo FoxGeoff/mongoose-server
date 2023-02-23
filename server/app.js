@@ -6,7 +6,8 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const { default: mongoose } = require('mongoose');
 
-app.set('port', process.env.PORT || 8081);
+//not set in package.json so = 8081
+const port = process.env.PORT || 8081;
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -37,7 +38,8 @@ db.on('error', console.error.bind(console, 'connection error'));
 db.once('open', function () {
   console.log('Connected to MongoDb');
 
-  app.listen(app.get('port'), function () {
-    console.log('API Server Listening on port ' + app.get('port') + '!');
+  app.listen(port, () => {
+    console.log(`API Server Listening on port ${port}`);
   });
+ 
 });
