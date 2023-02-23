@@ -187,6 +187,8 @@ db.once('open', function () {
 
 ### Task: setup development env port in package.json (nodemonConfig)
 
+1. Ref code: project: 'github/rest-api'
+
 ```json
 ...
 "nodemonConfig": {
