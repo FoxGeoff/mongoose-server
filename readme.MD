@@ -207,3 +207,7 @@ db.once('open', function () {
 ### Task: List of 12 newest Standup Meeting
 
 ### Task: Update or remove objects
+
+1. Mongoose Methods: updateOne , updateMany, deleteOne and deleteMany and FindByIdAndUpdate
+2. Video Ref: <https://app.pluralsight.com/course-player?clipId=e0bc89de-7bb7-4f27-a335-822a3a46bbc7>
+
