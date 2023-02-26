@@ -211,3 +211,6 @@ db.once('open', function () {
 1. Mongoose Methods: updateOne , updateMany, deleteOne and deleteMany and FindByIdAndUpdate
 2. Video Ref: <https://app.pluralsight.com/course-player?clipId=e0bc89de-7bb7-4f27-a335-822a3a46bbc7>
 
+### Task: Download client project
+
+1. Ref: <https://github.com/tripletdad99/vue-standupnotes-client>
